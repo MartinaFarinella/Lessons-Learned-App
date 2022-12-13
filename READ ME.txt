@@ -1,0 +1,26 @@
+This read me file gives indication about the content of the files and preparatory codes to run the app and explain how to store the files to make the App work on readers' PCs.
+
+1) app.R: This file contains the Web App script in R, that must be opened to run the App. After having understood the App's features and components, 
+it is possible to customize it, by modifying the script. Please, create a folder in your working directory containing two subfolders.
+This file should be placed in the sub-folder named "app codes".
+
+2) analysis_texts-preparatory_code.html: This HTML file contains the preparatory codes for the App realization. In particular, 
+it is devoted to text analysis and topic analysis, which is reproduced and automatized by the App. 
+Please, create a folder in your working directory containing two subfolders. This file should be placed in the sub-folder named "app codes".
+
+3) data-preparatory_code.html: This HTML file contains the preparatory code for the realization of the App. In particular, 
+it contains the code concerning data cleaning, translation, and preparation. 
+Please, create a folder in your working directory containing two subfolders. This file should be placed in the sub-folder named "app codes".
+
+4) pcr_lessons_learned_cleaned.rda: This rda file contains sample data that should be load to make the App work After having tested the App with this sample data, 
+it is possible to customize the App and make it work with different data. 
+Please, create a folder in your working directory containing two subfolders. This file should be placed in the sub-folder named "data".
+
+5) data_shiny.rda: This rda file is need to build the Shiny application.
+Please, create a folder in your working directory containing two subfolders. This file should be placed in the sub-folder named "data".
+
+6) data_shiny_last.rda: This rda file is needed to build the Shiny application.
+Please, create a folder in your working directory containing two subfolders. This file should be placed in the sub-folder named "data".
+
+7) words_to_remove.txt: This txt file contains the words to be removed from the data, because they represent stop words.
+Please, create a folder in your working directory containing two subfolders. This file should be placed in the sub-folder named "data".
